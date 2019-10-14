@@ -1,0 +1,145 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Conn_01x02_Female
+#
+DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Screw_Terminal_01x02
+#
+DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-components_R_NC,0805
+#
+DEF taobao-components_R_NC,0805 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-components_R_NC,0805" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0805*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-led_LED_GREEN,0805
+#
+DEF taobao-led_LED_GREEN,0805 D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "taobao-led_LED_GREEN,0805" -175 -100 50 H V L CNN
+F2 "footprint-lib:LED_0805_2012Metric" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ *0805*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-r_R103,0603
+#
+DEF taobao-r_R103,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-r_R103,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-transistor_TIP127
+#
+DEF taobao-transistor_TIP127 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "taobao-transistor_TIP127" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ TO?92*
+ *SOT*23*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 P
+X C 2 100 200 100 D 50 50 1 1 P
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-zd_ZD_5V1
+#
+DEF taobao-zd_ZD_5V1 D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "taobao-zd_ZD_5V1" 0 -90 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ *D*1206*
+ *D*SOD*123*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 0 -10 40 -30 40 -30 -40 N
+P 4 0 1 0 30 40 -30 0 30 -40 30 40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
